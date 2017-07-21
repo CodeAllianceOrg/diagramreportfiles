@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap TOC Example</title>
+    
+    <link rel="stylesheet" href="lib/toc/toc.css">    
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" media="screen" /> 
+    <script src="lib/jquery/jquery-3.1.1.js"></script>        
+    <script src="lib/toc/toc.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+		$(document).ready(function(){	
+			//******************** START Table OF Contents ********************************************************************************			
+			// Initalize the TOC
+			$(function() {
+			  var navSelector = '#toc';
+			  var $myNav = $(navSelector);
+			  Toc.init($myNav);
+			  $('body').scrollspy({
+			    target: navSelector
+			  });
+			});
+			//******************** END Table OF Contents ********************************************************************************	
+		});    
+	</script>	
+</head>
+<body>
+
+<!-- BEGIN BODY -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<nav id="toc" data-spy="affix" data-offset-top="" data-offset-bottom="0" aria-label="Table of Contents">
+					<div class="tocHeader">Table Of Contents</div>
+				</nav>
+	  		</div> 
+	  		<div class="col-md-9">
+		  		<h1>H1 - Header A</h1>
+	  			<h2>H2 - Header a</h2>
+	  			<h2>H2 - Header b</h2>
+	  			<h2>H2 - Header c</h2>
+	  			<h2>H2 - Header d</h2>
+	  			<h2>H2 - Header e</h2>
+	  			<h2>H2 - Header f</h2>
+	  			<h1>H1 - Header B</h1>
+	  			<h2>H2 - Header a</h2>
+	  			<h2>H2 - Header b</h2>
+	  			<h2>H2 - Header c</h2>
+	  			<h2>H2 - Header d</h2>
+	  			<h2>H2 - Header e</h2>
+	  			<h2>H2 - Header f</h2>
+	  			<h1>H1 - Header C</h1>
+	  			<h2>H2 - Header a</h2>
+	  			<h2>H2 - Header b</h2>
+	  			<h2>H2 - Header c</h2>
+	  			<h2>H2 - Header d</h2>
+	  			<h2>H2 - Header e</h2>
+	  			<h2>H2 - Header f</h2>
+	  			<h1>H1 - Header D</h1>
+	  			<h2>H2 - Header a</h2>
+	  			<h2>H2 - Header b</h2>
+	  			<h2>H2 - Header c</h2>
+	  			<h2>H2 - Header d</h2>
+	  			<h2>H2 - Header e</h2>
+	  			<h2>H2 - Header f</h2>
+	  			<h1>H1 - Header E</h1>
+	  			<h2>H2 - Header a</h2>
+	  			<h2>H2 - Header b</h2>
+	  			<h2>H2 - Header c</h2>
+	  			<h2>H2 - Header d</h2>
+	  			<h2>H2 - Header e</h2>
+	  			<h2>H2 - Header f</h2>
+	  			<h1>H1 - Header F</h1>
+	  			<h2>H2 - Header a</h2>
+	  			<h2>H2 - Header b</h2>
+	  			<h2>H2 - Header c</h2>
+	  			<h2>H2 - Header d</h2>
+	  			<h2>H2 - Header e</h2>
+	  			<h2>H2 - Header f</h2>
+	  			<h1>H1 - Header G</h1>
+	  			<h2>H2 - Header a</h2>
+	  			<h2>H2 - Header b</h2>
+	  			<h2>H2 - Header c</h2>
+	  			<h2>H2 - Header d</h2>
+	  			<h2>H2 - Header e</h2>
+	  			<h2>H2 - Header f</h2>
+	  		</div> 
+	  	</div>
+	</div>
+</div>
+<!-- END BODY -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
